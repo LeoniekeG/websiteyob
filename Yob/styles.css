@@ -1,0 +1,264 @@
+/* home */
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 10px dotted #41F0FB;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    border-bottom: 10px dotted #41F0FB;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.container-2{
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 220px;
+}
+
+/* subpagina wie is yob */
+
+.container-3{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 6;
+}
+
+.box-1 > div > a > img{
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+/* subpagina ik hou van */
+
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    border-bottom: 10px dotted #41F0FB;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.flexitem-2 > img{
+    max-width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+    
+.flexitem-2 > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 250px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.flexitem-2 > h3{
+    margin-bottom: 10px
+}
+
+.container-4 > div > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: rgb(221, 230, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.container-4 > div{
+    margin: 10px;
+}
+
+.container-4 > div > textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.submit{
+    display: inline;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-top: 2px black solid;
+}
+
+/* subpagina mijn vrienden */
+
+.flex-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    border-bottom: 10px dotted #41F0FB;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.flexitem-3 > img{
+    max-width: 500px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.flexitem-3 > p{
+    max-width: 500px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .container-1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-bottom: 7px dotted #41F0FB;
+    }
+
+    .flex-1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+        border-bottom: 7px dotted #41F0FB;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .flexitem > a > img{
+        max-width: 250px;
+        max-height: auto;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .box-1 > div > a > img{
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .flex-2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 25px;
+        border-bottom: 7px dotted #41F0FB;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .flex-2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 25px;
+        border-bottom: 7px dotted #41F0FB;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .flexitem-2 > img{
+        max-width: 225px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+        
+    .flexitem-2 > p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 250px;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+  
+    .container-4 > div > input{
+        font-size: 14px;
+    }
+    
+    .container-4 > div > textarea{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+    
+    .submit{
+        display: inline;
+        border-left: 2px black solid;
+        border-bottom: 2px black solid;
+        border-right: 2px black solid;
+        border-top: 2px black solid;
+    }
+
+    .flex-3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 15px;
+        border-bottom: 7px dotted #41F0FB;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .flexitem-3 > img{
+        max-width: 285px;
+    }
+    
+    .flexitem-3 > p{
+        max-width: 285px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+.flex-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexitem > a > img{
+    max-width: 300px;
+}
+
+}
